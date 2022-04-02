@@ -1,0 +1,77 @@
+2022-04-02 00:03:29.453  INFO 11236 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        df046f418b361af17e244536a670cc969eb60fba-SNAPSHOT
+	Build:          Unofficial
+	Build time:     16.08.2021 16:06:26 UTC
+	Branch:         dev
+	Commit:         df046f4
+	Commit time:    16.08.2021 16:00:50 UTC
+	Kotlin:         1.5.21
+	JVM:            18
+	Lavaplayer:     1.3.92
+
+2022-04-02 00:03:29.572  INFO 11236 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 18 on DESKTOP-6E10057 with PID 11236 (C:\Users\wesley\Documents\DEV\bot discord aula 1\lavalink\Lavalink.jar started by wesley in C:\Users\wesley\Documents\DEV\bot discord aula 1\lavalink)
+2022-04-02 00:03:29.573  INFO 11236 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-04-02 00:03:31.566  WARN 11236 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-04-02 00:03:31.595  INFO 11236 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-04-02 00:03:31.596  INFO 11236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1933 ms
+2022-04-02 00:03:31.897  INFO 11236 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-04-02 00:03:32.082  INFO 11236 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2022-04-02 00:03:32.083  WARN 11236 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2022-04-02 00:03:32.084  INFO 11236 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-04-02 00:03:32.103  INFO 11236 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-04-02 00:03:32.107  INFO 11236 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-04-02 00:03:32.116  INFO 11236 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-04-02 00:03:32.127  INFO 11236 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-04-02 00:03:32.128  INFO 11236 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-04-02 00:03:32.140  WARN 11236 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-04-02 00:03:32.775  INFO 11236 --- [main] io.undertow                              : starting server: Undertow - 2.2.9.Final
+2022-04-02 00:03:32.791  INFO 11236 --- [main] org.xnio                                 : XNIO version 3.8.4.Final
+2022-04-02 00:03:32.804  INFO 11236 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.4.Final
+2022-04-02 00:03:32.883  INFO 11236 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-04-02 00:03:32.924  INFO 11236 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2334 (http)
+2022-04-02 00:03:32.937  INFO 11236 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.139 seconds (JVM running for 4.746)
+2022-04-02 00:03:45.877  INFO 11236 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 00:03:45.877  INFO 11236 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 00:03:45.879  INFO 11236 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 00:03:45.900  INFO 11236 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57160
+2022-04-02 00:03:45.960  INFO 11236 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2022-04-02 00:03:46.577  WARN 11236 --- [pool-3-thread-1] o.u.p.windows.PerfCounterWildcardQuery   : Disabling further attempts to query Processor Information.
+2022-04-02 00:04:39.820  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=4n5bpeh5NNg"
+2022-04-02 00:04:40.926  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ONE OK ROCK: Renegades [OFFICIAL VIDEO]
+2022-04-02 00:04:40.967  INFO 11236 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"807415820883984413","volume":100}
+2022-04-02 00:04:40.971  INFO 11236 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAAwwIAJ09ORSBPSyBST0NLOiBSZW5lZ2FkZXMgW09GRklDSUFMIFZJREVPXQAPRnVlbGVkIEJ5IFJhbWVuAAAAAAADxNgACzRuNWJwZWg1Tk5nAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NG41YnBlaDVOTmcBADBodHRwczovL2kueXRpbWcuY29tL3ZpLzRuNWJwZWg1Tk5nL3NkZGVmYXVsdC5qcGcAB3lvdXR1YmUAAAAAAAAAAA=="}
+2022-04-02 00:04:41.604  INFO 11236 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"e42c655a35877f26f601364835d30514","op":"voiceUpdate","guildId":"807415820883984413","event":{"token":"8894389b76aa476b","guild_id":"807415820883984413","endpoint":"brazil5008.discord.media:443"}}
+2022-04-02 00:05:08.725  INFO 11236 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57160 -- CloseStatus[code=1006, reason=]
+2022-04-02 00:05:08.727  INFO 11236 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-04-02 00:05:21.946  INFO 11236 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55506
+2022-04-02 00:05:21.948  INFO 11236 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2022-04-02 00:05:43.657  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"807415820883984413","volume":100}
+2022-04-02 00:05:43.663  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Slipknot - Duality"
+2022-04-02 00:05:44.298  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"33267558a8c0bc81d76afcf5840bad86","op":"voiceUpdate","guildId":"807415820883984413","event":{"token":"8894389b76aa476b","guild_id":"807415820883984413","endpoint":"brazil5008.discord.media:443"}}
+2022-04-02 00:05:44.623  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Slipknot - Duality
+2022-04-02 00:05:44.644  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAAuAIAI1NsaXBrbm90IC0gRHVhbGl0eSBbT0ZGSUNJQUwgVklERU9dAAhTbGlwa25vdAAAAAAAA0PwAAs2ZlZFOGtTTTQzSQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTZmVkU4a1NNNDNJAQAwaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS82ZlZFOGtTTTQzSS9zZGRlZmF1bHQuanBnAAd5b3V0dWJlAAAAAAAAAAA="}
+2022-04-02 00:09:18.941  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Avenged Sevenfold - Hail to the King"
+2022-04-02 00:09:19.801  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Avenged Sevenfold - Hail to the King
+2022-04-02 00:09:19.823  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAA2QIAO0F2ZW5nZWQgU2V2ZW5mb2xkIC0gSGFpbCBUbyBUaGUgS2luZyBbT2ZmaWNpYWwgTXVzaWMgVmlkZW9dABFBdmVuZ2VkIFNldmVuZm9sZAAAAAAABMqQAAtEZWxoTHBwUFN4WQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PURlbGhMcHBQU3hZAQAwaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EZWxoTHBwUFN4WS9zZGRlZmF1bHQuanBnAAd5b3V0dWJlAAAAAAAAAAA="}
+2022-04-02 00:14:34.036  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Disturbed - The Vengeful One"
+2022-04-02 00:14:34.846  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Disturbed - The Vengeful One
+2022-04-02 00:14:34.860  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAAyQIAM0Rpc3R1cmJlZCAtIFRoZSBWZW5nZWZ1bCBPbmUgW09mZmljaWFsIE11c2ljIFZpZGVvXQAJRGlzdHVyYmVkAAAAAAAD/3AACzhuVy1JUHJ6TTFnAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OG5XLUlQcnpNMWcBADBodHRwczovL2kueXRpbWcuY29tL3ZpLzhuVy1JUHJ6TTFnL3NkZGVmYXVsdC5qcGcAB3lvdXR1YmUAAAAAAAAAAA=="}
+2022-04-02 00:18:57.302  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Bullet For My Valentine - Parasite - Edit"
+2022-04-02 00:18:58.079  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Bullet For My Valentine - Parasite - Edit
+2022-04-02 00:18:58.092  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAAswIAD1BhcmFzaXRlIChFZGl0KQAXQnVsbGV0IEZvciBNeSBWYWxlbnRpbmUAAAAAAAO1OAALNWRZLTBWSjRkZk0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01ZFktMFZKNGRmTQEAMGh0dHBzOi8vaS55dGltZy5jb20vdmkvNWRZLTBWSjRkZk0vc2RkZWZhdWx0LmpwZwAHeW91dHViZQAAAAAAAAAA"}
+2022-04-02 00:23:01.241  INFO 11236 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Stone Sour - Absolute Zero"
+2022-04-02 00:23:02.073  INFO 11236 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Stone Sour - Absolute Zero
+2022-04-02 00:23:02.089  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"807415820883984413","track":"QAAA0wIAPFN0b25lIFNvdXIgLSBHb25lIFNvdmVyZWlnbiAvIEFic29sdXRlIFplcm8gW09GRklDSUFMIFZJREVPXQAKU3RvbmUgU291cgAAAAAABzuQAAtrTnJTLUdEQUVBcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWtOclMtR0RBRUFzAQAwaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9rTnJTLUdEQUVBcy9zZGRlZmF1bHQuanBnAAd5b3V0dWJlAAAAAAAAAAA="}
+2022-04-02 00:26:23.461  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:55506 -- CloseStatus[code=1006, reason=]
+2022-04-02 00:26:23.462  INFO 11236 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-04-02 00:26:32.573  INFO 11236 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.2.9.Final
+2022-04-02 00:26:32.575  INFO 11236 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-02 00:26:32.577  INFO 11236 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
